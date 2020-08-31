@@ -1,0 +1,4 @@
+name: httparty
+
+packages:
+- path: lib

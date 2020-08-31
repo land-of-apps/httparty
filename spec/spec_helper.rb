@@ -1,3 +1,5 @@
+require 'appmap/rspec'
+
 require "simplecov"
 SimpleCov.start
 require 'pry'

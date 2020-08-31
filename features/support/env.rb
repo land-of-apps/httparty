@@ -1,3 +1,5 @@
+require 'appmap/cucumber'
+
 require 'mongrel'
 require './lib/httparty'
 require 'rspec/expectations'
