@@ -1,3 +1,4 @@
+require 'appmap'
 require 'appmap/cucumber'
 
 require 'mongrel'

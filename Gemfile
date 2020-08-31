@@ -11,6 +11,7 @@ group :development do
 end
 
 group :test do
+  gem 'appmap'
   gem 'rspec',    '~> 3.4'
   gem 'simplecov', require: false
   gem 'aruba'
