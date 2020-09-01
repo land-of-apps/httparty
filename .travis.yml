@@ -9,5 +9,4 @@ script:
 - APPMAP=true bundle exec cucumber
 
 after_script:
-- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec
-- env DEBUG=true ruby ./upload-appmaps tmp/appmap/cucumber
+- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec tmp/appmap/cucumber
