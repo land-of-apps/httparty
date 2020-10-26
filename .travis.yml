@@ -7,6 +7,3 @@ import:
 script:
 - APPMAP=true bundle exec rspec
 - APPMAP=true bundle exec cucumber
-
-after_script:
-- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec tmp/appmap/cucumber
